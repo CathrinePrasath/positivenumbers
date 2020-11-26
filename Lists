@@ -1,0 +1,19 @@
+#Creating list1
+list1 = [12, -7, 5, 64, -14]
+print("list1 = ", list1)
+print("Output: ")
+for num in list1:
+#Checking for postive numbers in the range
+  if num >= 0:
+    print(num, end = " ")
+print("\n")
+
+#Creating list2
+list2 = [12, 14, -95, 3]
+print("list2 = ", list2)
+print("Output: [")
+for num in list2:
+#Checking for positive numbers in the range
+  if num >= 0:
+    print(num, sep =",", end = " ")
+print("]")
